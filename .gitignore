@@ -1,0 +1,62 @@
+# Claude Code Config Sync - Default .gitignore
+
+# Ignore sensitive files
+*.key
+*.pem
+*.env
+*.secret
+*.p12
+credentials.json
+.credentials.json
+auth-tokens.json
+
+# Ignore runtime/cache directories
+debug/
+file-history/
+shell-snapshots/
+todos/
+projects/
+notifications/
+pipeline-learning/
+pipeline-metrics/
+statsig/
+experiments/
+plugins/
+ide/
+
+# Ignore temporary files
+*.tmp
+*.log
+.DS_Store
+Thumbs.db
+
+# Ignore local-only settings
+local-settings.json
+.sync-config.json
+settings.local.json
+CLAUDE.local.md
+
+# Never upload files containing real secrets
+settings.json
+config.json
+
+# Ignore machine-specific and local state
+.ecc/
+ecc/
+.claude.json
+backups/
+cache/
+telemetry/
+metrics/
+session-data/
+session-env/
+sessions/
+
+# Ignore environment-specific and transient files
+local
+history.jsonl
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+desktop.ini

@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "claude-code-config-sync": {
+      "command": "claude-code-config-sync",
+      "args": []
+    }
+  }
+}
