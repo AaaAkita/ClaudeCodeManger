@@ -52,6 +52,15 @@ session-data/
 session-env/
 sessions/
 
+# Ignore session artifacts
+tasks/
+plans/
+ccusage-cache.json
+
+# Ignore plugin runtime data
+.agents/
+homunculus/
+
 # Ignore environment-specific and transient files
 local
 history.jsonl
