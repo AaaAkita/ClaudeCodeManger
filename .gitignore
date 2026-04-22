@@ -39,6 +39,7 @@ CLAUDE.local.md
 # Never upload files containing real secrets
 settings.json
 config.json
+settings.json.bak
 
 # Ignore machine-specific and local state
 .ecc/
